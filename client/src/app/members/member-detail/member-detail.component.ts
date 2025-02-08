@@ -19,7 +19,7 @@ export class MemberDetailComponent implements OnInit{
   images: GalleryItem[] = []
 
   ngOnInit(): void {
-    this.loadMember()
+    this.loadMember();
   }
 
   loadMember() {
